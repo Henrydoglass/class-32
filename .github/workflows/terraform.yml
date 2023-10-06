@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup terraform
-        uses: harshicorp/setup-terraform@v3
+        uses: harshicorp/setup-terraform@v2.309.0
         with:
           terraform_version: 1.1.9
       - name: Init
