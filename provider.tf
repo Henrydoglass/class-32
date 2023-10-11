@@ -1,3 +1,4 @@
-provider "aws" {
-  region = "var.region"
-}
+#provider "aws" {
+# profile = "default"
+#region  = "var.aws_region"
+#}
